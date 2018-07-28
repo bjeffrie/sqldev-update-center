@@ -20,7 +20,7 @@ limitations under the License.
         <name>Context Menu Action</name>
         <version>18.1.0.18.093.2202</version>
         <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/java</author-url>
         <description>Example context menu action on FUNCTION, PROCEURE code editor to insert static string</description>
         <requirements>
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
@@ -34,7 +34,7 @@ limitations under the License.
         <name>Example Dependency Viewer</name>
         <version>18.1.0.18.093.2202</version>
         <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/java</author-url>
         <description>Object viewer(s) for dependency analysis</description>
         <requirements>   <requires-agreement url="https://www.eclipse.org/legal/epl-v10.html"/>
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
@@ -48,7 +48,7 @@ limitations under the License.
         <name>Dump Object Types Action</name>
         <version>18.1.0.18.093.2202</version>
         <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/java</author-url>
         <description>Object action to dump an object type list as INFO to log window.</description>
         <requirements>
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
@@ -62,13 +62,27 @@ limitations under the License.
         <name>XML Extension Examples</name>
         <version>18.1.0.18.093.2202</version>
         <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/xml</author-url>
         <description>Extension examples using XML declarations</description>
         <requirements>
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
             https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.xml.packaged-18.1.0.zip
+        </bundle-url>
+        <destination>${oracle.home}</destination>
+    </update>
+    <update id="oracle.db.examples.sqldeveloper.extension.favorites" xmlns="http://xmlns.oracle.com/jdeveloper/update">
+        <name>Oracle SQL Developer - Simple Favorites Support</name>
+        <version>18.3.0.18.093.2202</version>
+        <author>Brian Jeffries</author>
+        <author-url>https://github.com/bjeffrie/oracle-db-examples/tree/master/sqldeveloper/extension/xml/favorites</author-url>
+        <description>Extension to add simple favorites. See https://github.com/bjeffrie/oracle-db-examples/tree/master/sqldeveloper/extension/xml/favorites for usage information and caveats.</description>
+        <requirements>
+            <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
+        </requirements>
+        <bundle-url>
+            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.extension.favorites-18.3.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
