@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved. 
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. 
+-->
+
+<updates version="2.0" xmlns="http://xmlns.oracle.com/jdeveloper/updatecenter" xmlns:u="http://xmlns.oracle.com/jdeveloper/update">   
+    <update id="oracle.db.example.sqldeveloper.extension.contextMenuAction" xmlns="http://xmlns.oracle.com/jdeveloper/update">
+        <name>Context Menu Action</name>
+        <version>18.1.0.18.093.2202</version>
+        <author>Oracle Examples</author>
+        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <description>Example context menu action on FUNCTION, PROCEURE code editor to insert static string</description>
+        <requirements>
+            <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
+        </requirements>
+        <bundle-url>
+            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.contextMenuAction-18.1.0.zip
+        </bundle-url>
+        <destination>${oracle.home}</destination>
+    </update>
+    <update id="oracle.db.example.sqldeveloper.extension.dependency" xmlns="http://xmlns.oracle.com/jdeveloper/update">
+        <name>Example Dependency Viewer</name>
+        <version>18.1.0.18.093.2202</version>
+        <author>Oracle Examples</author>
+        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <description>Object viewer(s) for dependency analysis</description>
+        <requirements>   <requires-agreement url="https://www.eclipse.org/legal/epl-v10.html"/>
+            <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
+        </requirements>
+        <bundle-url>
+            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dependency-18.1.0.zip
+        </bundle-url>
+        <destination>${oracle.home}</destination>
+    </update>
+    <update id="oracle.db.example.sqldeveloper.extension.dumpObjectTypes" xmlns="http://xmlns.oracle.com/jdeveloper/update">
+        <name>Dump Object Types Action</name>
+        <version>18.1.0.18.093.2202</version>
+        <author>Oracle Examples</author>
+        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <description>Object action to dump an object type list as INFO to log window.</description>
+        <requirements>
+            <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
+        </requirements>
+        <bundle-url>
+            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dumpObjectTypes-18.1.0.zip
+        </bundle-url>
+        <destination>${oracle.home}</destination>
+    </update>
+    <update id="oracle.db.examples.sqldeveloper.xml.packaged" xmlns="http://xmlns.oracle.com/jdeveloper/update">
+        <name>XML Extension Examples</name>
+        <version>18.1.0.18.093.2202</version>
+        <author>Oracle Examples</author>
+        <author-url>https://github.com/oracle/oracle-db-examples/sqldeveloper</author-url>
+        <description>Extension examples using XML declarations</description>
+        <requirements>
+            <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
+        </requirements>
+        <bundle-url>
+            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.xml.packaged-18.1.0.zip
+        </bundle-url>
+        <destination>${oracle.home}</destination>
+    </update>
+</updates>
