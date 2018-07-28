@@ -20,13 +20,13 @@ limitations under the License.
         <name>Context Menu Action</name>
         <version>18.1.0.18.093.2202</version>
         <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/java</author-url>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension</author-url>
         <description>Example context menu action on FUNCTION, PROCEURE code editor to insert static string</description>
         <requirements>
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.contextMenuAction-18.1.0.zip
+            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.contextMenuAction-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -34,13 +34,13 @@ limitations under the License.
         <name>Example Dependency Viewer</name>
         <version>18.1.0.18.093.2202</version>
         <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/java</author-url>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension</author-url>
         <description>Object viewer(s) for dependency analysis</description>
         <requirements>   <requires-agreement url="https://www.eclipse.org/legal/epl-v10.html"/>
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dependency-18.1.0.zip
+            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dependency-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -48,27 +48,13 @@ limitations under the License.
         <name>Dump Object Types Action</name>
         <version>18.1.0.18.093.2202</version>
         <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/java</author-url>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension</author-url>
         <description>Object action to dump an object type list as INFO to log window.</description>
         <requirements>
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dumpObjectTypes-18.1.0.zip
-        </bundle-url>
-        <destination>${oracle.home}</destination>
-    </update>
-    <update id="oracle.db.examples.sqldeveloper.xml.packaged" xmlns="http://xmlns.oracle.com/jdeveloper/update">
-        <name>XML Extension Examples</name>
-        <version>18.1.0.18.093.2202</version>
-        <author>Oracle Examples</author>
-        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/xml</author-url>
-        <description>Extension examples using XML declarations</description>
-        <requirements>
-            <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
-        </requirements>
-        <bundle-url>
-            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.xml.packaged-18.1.0.zip
+            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dumpObjectTypes-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -82,7 +68,21 @@ limitations under the License.
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://cdn.rawgit.com/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.extension.favorites-18.3.0.zip
+            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.extension.favorites-18.3.0.zip
+        </bundle-url>
+        <destination>${oracle.home}</destination>
+    </update>
+    <update id="oracle.db.examples.sqldeveloper.xml.packaged" xmlns="http://xmlns.oracle.com/jdeveloper/update">
+        <name>XML Extension Examples</name>
+        <version>18.1.0.18.093.2202</version>
+        <author>Oracle Examples</author>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension</author-url>
+        <description>Extension examples using XML declarations</description>
+        <requirements>
+            <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
+        </requirements>
+        <bundle-url>
+            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.xml.packaged-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
