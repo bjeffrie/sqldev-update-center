@@ -10,3 +10,5 @@ NOTE: This site may also include extension examples from the local [bjeffrie/ora
 
 You can add [https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/update-center.xml](https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/update-center.xml)
 as an update center in SQL Developer or download this repository and use the install from local file option.
+
+2020/08/26: Added ConnectionHelper example
