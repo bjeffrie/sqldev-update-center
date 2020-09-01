@@ -26,7 +26,7 @@ limitations under the License.
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.contextMenuAction-18.1.0.zip
+            https://raw.githubusercontent.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.contextMenuAction-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -40,7 +40,7 @@ limitations under the License.
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dependency-18.1.0.zip
+            https://raw.githubusercontent.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dependency-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -54,7 +54,7 @@ limitations under the License.
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dumpObjectTypes-18.1.0.zip
+            https://raw.githubusercontent.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.dumpObjectTypes-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -68,7 +68,7 @@ limitations under the License.
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.extension.favorites-18.3.0.zip
+            https://raw.githubusercontent.com/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.extension.favorites-18.3.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -82,7 +82,7 @@ limitations under the License.
             <requires-extension id="oracle.sqldeveloper" minVersion="18.1.0"/>
         </requirements>
         <bundle-url>
-            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.xml.packaged-18.1.0.zip
+            https://raw.githubusercontent.com/bjeffrie/sqldev-update-center/master/oracle.db.examples.sqldeveloper.xml.packaged-18.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
@@ -96,7 +96,7 @@ limitations under the License.
             <requires-extension id="oracle.sqldeveloper" minVersion="20.1.0"/>
         </requirements>
         <bundle-url>
-            https://gitcdn.xyz/repo/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.connectionHelper-20.1.0.zip
+            https://raw.githubusercontent.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.connectionHelper-20.1.0.zip
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
