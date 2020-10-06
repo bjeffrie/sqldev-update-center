@@ -100,4 +100,18 @@ limitations under the License.
         </bundle-url>
         <destination>${oracle.home}</destination>
     </update>
+    <update id="oracle.db.example.sqldeveloper.extension.connectionHelper" xmlns="http://xmlns.oracle.com/jdeveloper/update">
+        <name>Connection Helper</name>
+        <version>20.1.1.20.071.1342</version>
+        <author>Oracle Examples</author>
+        <author-url>https://github.com/oracle/oracle-db-examples/tree/master/sqldeveloper/extension/java/ConnectionHelper</author-url>
+        <description>Example to accept connection info from the command line or via a SocketServer</description>
+        <requirements>
+            <requires-extension id="oracle.sqldeveloper" minVersion="20.1.0"/>
+        </requirements>
+        <bundle-url>
+            https://raw.githubusercontent.com/bjeffrie/sqldev-update-center/master/oracle.db.example.sqldeveloper.extension.connectionHelper-20.1.1.zip
+        </bundle-url>
+        <destination>${oracle.home}</destination>
+    </update>
 </updates>
