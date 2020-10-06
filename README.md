@@ -14,3 +14,4 @@ as an update center in SQL Developer or download this repository and use the ins
 * 2020/08/26: Added ConnectionHelper example
 * 2020/08/31: Add alternate update center url
 * 2020/09/01: Remove cdn URL masking. We do not need content-type & direct (raw) access works fine.
+* 2020/10/06: Added ConnectionHelper 20.1.1 update (allow dots in sid/svc name)
